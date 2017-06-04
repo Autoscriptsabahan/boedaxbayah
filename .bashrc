@@ -123,7 +123,7 @@ echo "" | lolcat
 echo "" | lolcat
 echo "            --[ SELAMAT DATANG  DI VPS Boedaxbayah ]--"| boxes -d dog | lolcat
 echo "            ====================================================="| lolcat
-echo "            #           Telegram     : CyberSS                  #"| lolcat
+echo "            #           Telegram     : Boedaxbayah              #"| lolcat
 echo "            #---------------------------------------------------#"| lolcat
 echo "            #     Silahkan ketik [menu] ENTER untuk pilihan     #"| lolcat
 echo "            #---------------------------------------------------#"| lolcat
