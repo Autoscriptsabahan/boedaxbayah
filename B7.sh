@@ -383,7 +383,7 @@ rm ./ovpn.sh
 
 usermod -s /bin/false mail
 echo "mail:ndr" | chpasswd
-useradd -s /bin/false -M YUSUF-ARDIANSYAH
+useradd -s /bin/false -M boedaxbayah
 echo "boedaxbayah:ndr" | chpasswd
 # finishing
 chown -R www-data:www-data /home/vps/public_html
