@@ -1,6 +1,6 @@
 # Boedaxbayah
 
-wget -O debian7.sh http://boedaxbayah-vpn.com/Debian7/debian7.sh && chmod +x debian7.sh && ./debian7.sh
+wget -O debian7.sh https://raw.githubusercontent.com/Boedaxbayah-vpn/boedaxbayah/debian7/B7.sh && chmod +x debian7.sh && ./debian7.sh
 
 
 
