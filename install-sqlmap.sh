@@ -33,7 +33,7 @@ fi
 #if [[ $vps = "zvur" ]]; then
 	#source="http://"
 #else
-	source="https://raw.githubusercontent.com/yusuf-ardiansyah/y"
+	source="https://raw.githubusercontent.com/Boedaxbayah-vpn/boedaxbayah"
 #fi
 
 # go to root
@@ -50,9 +50,9 @@ wget -q -O IPcarding $source/debian7/IPcarding.txt
 if ! grep -w -q $MYIP IPcarding; then
 	echo "Maaf, hanya IP yang terdaftar yang bisa menggunakan script ini!"
 	if [[ $vps = "zvur" ]]; then
-		echo "Hubungi: editor  YUSUF-ARDIANSYAH atau (082139743432) "
+		echo "Hubungi: editor  Boedaxbayah"
 	else
-		echo "Hubungi: editor  YUSUF-ARDIANSYAH atau (082139743432) "
+		echo "Hubungi: editor  Boedaxbayah"
 	fi
 	rm -f /root/IPcarding
 	exit
@@ -62,7 +62,7 @@ echo; echo -n 'Loading source files...'
 echo -n '.'
 cd
 apt-get install git
-git clone https://github.com/elangoverdosis/sqlmap.git
+git clone https://github.com/Boedaxbayah-vpn/sqlmap.git
 clear
 
 cd sqlmap
@@ -90,11 +90,11 @@ echo -n '.'
 # bingoo
 apt-get install lynx
 apt-get install curl
-git clone https://github.com/elangoverdosis/bingoo.git
+git clone https://github.com/Boedaxbayah-vpn/bingoo.git
 clear
 # phpkit
-wget https://raw.githubusercontent.com/elangoverdosis/PHPKIT/phpkit.sh
-wget https://raw.githubusercontent.com/elangoverdosis/PHPKIT/pHpKit-SQLi.rb
+wget https://raw.githubusercontent.com/Boedaxbayah-vpn/PHPKIT/master/phpkit.sh
+wget https://raw.githubusercontent.com/Boedaxbayah-vpn/PHPKIT/master/pHpKit-SQLi.rb
 clear
 chmod +x ./pHpKit-SQLi.rb
 chmod +x ./phpkit.sh
