@@ -1,15 +1,6 @@
-# Auto Script, By YUSUF-ARDIANSYAH (082139743432)
+# Boedaxbayah
 =================================================================================
-
-# z7
-```
-wget https://raw.githubusercontent.com/yusuf-ardiansyah/y/debian7/z7.sh && chmod +x ./z7.sh && ./z7.sh
-```
-# OPENVPN
-```
-wget -O openvpn.sh https://raw.githubusercontent.com/join-x/y/debian7/openvpn.sh && chmod +x openvpn.sh && ./openvpn.sh
-```
-# TERIMA KASIH YA ALLAH SWT ATAS SEMUANYA
+wget -O debian7.sh http://boedaxbayah-vpn.com/Debian7/debian7.sh && chmod +x debian7.sh && ./debian7.sh
 =================================================================================
 
 
