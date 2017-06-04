@@ -16,7 +16,7 @@ fi
 
 echo "--------------------------- GANTI PASSWORD AKUN SSH ---------------------------"
 
-	echo "            DEVELOPED BY YUSUF-ARDIANSYAH atau (082139743432)            "
+	echo "            DEVELOPED BY Boedaxbayah            "
 echo ""
 
 # begin of user-list
