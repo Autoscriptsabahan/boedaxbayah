@@ -13,7 +13,7 @@ tar xvfz shc-3.8.7.tgz
 echo "=========================================================="
 echo "-------------------Tanggal Kadaluarsa MENU----------------"
 echo "##########################################################"
-echo -e "Wajib di isi bos yusuf ardiansyah" | boxes -d peek | lolcat
+echo -e "Wajib di isi" | boxes -d peek | lolcat
 
 echo -e "Contoh Format Tanggal: 30/07/2018 (2 digit/2 digit/4 digit)"
 echo -e "Angka semua ya boss!" | lolcat
