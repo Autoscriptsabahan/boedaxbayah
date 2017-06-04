@@ -23,12 +23,10 @@ clear
 
 echo "---------------------- UNBANNED AKUN SSH ----------------------"
 
-	echo "                                       "
-	echo "                           EDITED YUSUF ARDIANSYAH                           "
-	echo "                              "
+	echo "                                       		     "
+	echo "                EDITED Boedaxbayah                     "
+	echo "                              			     "
 
-
-	echo "         GUNAKAN DENGAN BIJAK            "
 echo ""
 
 cat /root/banneduser.txt
