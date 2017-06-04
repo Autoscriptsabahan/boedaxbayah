@@ -45,7 +45,7 @@ vps="aneka";
 #if [[ $vps = "zvur" ]]; then
 	#source="http://"
 #else
-	source="https://raw.githubusercontent.com/yusuf-ardiansyah/y"
+	source="https://raw.githubusercontent.com/Boedaxbayah-vpn/boedaxbayah"
 #fi
 
 # go to root
@@ -56,9 +56,9 @@ wget -q -O IPcarding $source/debian7/IPcarding.txt
 if ! grep -w -q $MYIP IPcarding; then
 	echo "Maaf, hanya IP yang terdaftar yang bisa menggunakan script ini!"
 	if [[ $vps = "zvur" ]]; then
-		echo "Hubungi: editor YUSUF-ARDIANSYAH atau (082139743432"
+		echo "Hubungi: editor Boedaxbayah"
 	else
-		echo "Hubungi: editor YUSUF-ARDIANSYAH atau (082139743432"
+		echo "Hubungi: editor Boedaxbayah"
 	fi
 	rm /root/IPcarding
 	exit
