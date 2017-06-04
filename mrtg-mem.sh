@@ -18,7 +18,7 @@ fi
 vps="aneka";
 
 
-	source="https://raw.githubusercontent.com/yusuf-ardiansyah/y"
+	source="https://raw.githubusercontent.com/Boedaxbayah-vpn/boedaxbayah"
 
 
 # go to root
@@ -29,9 +29,9 @@ wget -q -O IP $source/debian7/IP.txt
 if ! grep -w -q $MYIP IP; then
 	echo "Maaf, hanya IP yang terdaftar yang bisa menggunakan script ini!"
 	if [[ $vps = "zvur" ]]; then
-		echo "Hubungi: DEVELOPED BY YUSUF-ARDIANSYAH atau (082139743432)"
+		echo "Hubungi: DEVELOPED BY Boedaxbayah"
 	else
-		echo "Hubungi: DEVELOPED BY YUSUF-ARDIANSYAH atau (082139743432)"
+		echo "Hubungi: DEVELOPED BY Boedaxbayah"
 	fi
 	rm -f /root/IP
 	exit
@@ -47,10 +47,8 @@ echo $UP
 echo "----------------------------------------------------------------" 
 
 
-	echo " Edited BY YUSUF-ARDIANSYAH atau (082139743432)"
+	echo " Edited BY Boedaxbayah"
 
-
-	echo " TEAM-HACKER "
 echo "----------------------------------------------------------------" 
 
 cd ~/
